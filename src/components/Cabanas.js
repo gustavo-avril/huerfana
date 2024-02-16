@@ -1,6 +1,6 @@
-import React from 'react';
-import '../css/cabanas.css';
-import Minigallery from './Minigallery';
+import React from "react";
+import "../css/cabanas.css";
+import Minigallery from "./Minigallery";
 
 function Cabanas() {
   return (
@@ -18,7 +18,7 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/tarifas.html'>Ver Tarifas</a>
+            <a href="/tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Uonquen" />
@@ -30,7 +30,10 @@ function Cabanas() {
       </div>
       <div className="cabana-left">
         <div className="image-left">
-          <img src="img/cabanas/kamarata/kamarata1.webp" alt="Cabaña Kamarata" />
+          <img
+            src="img/cabanas/kamarata/kamarata1.webp"
+            alt="Cabaña Kamarata"
+          />
         </div>
         <div className="content-right">
           <h1 className="titulo">Kamarata</h1>
@@ -44,7 +47,7 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/tarifas.html'>Ver Tarifas</a>
+            <a href="/tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Kamarata" />
@@ -64,24 +67,24 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/tarifas.html'>Ver Tarifas</a>
+            <a href="/tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Parupa" />
           </div>
         </div>
         <div className="image-right">
-          <img src="img/cabanas/uonquen/parupa1.webp" alt="Cabaña Parupa" />
+          <img src="img/cabanas/parupa/parupa1.webp" alt="Cabaña Parupa" />
         </div>
       </div>
       <div className="cabana-left">
         <div className="image-left">
-          <img src="img/cabanas/uonquen/kamarata1.webp" alt="Cabaña Kamarata" />
+          <img src="img/cabanas/canaima/canaima1.webp" alt="Cabaña Kamarata" />
         </div>
         <div className="content-right">
-          <h1 className="titulo">Kamarata</h1>
+          <h1 className="titulo">Canaima</h1>
           <ul>
-            <li>Cabaña max 4 personas o solo 1 pareja</li>
+            <li>Cabaña max 4 personas ó solo 1 pareja</li>
             <li>2 camas matrimoniales</li>
             <li>Chimenea</li>
             <li>Agua Caliente</li>
@@ -90,7 +93,7 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/`tarifas.html'>Ver Tarifas</a>
+            <a href="/`tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Canaima" />
@@ -110,19 +113,19 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/tarifas.html'>Ver Tarifas</a>
+            <a href="/tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Kavac" />
           </div>
         </div>
         <div className="image-right">
-          <img src="img/cabanas/uonquen/kavac1.webp" alt="Cabaña Kavac" />
+          <img src="img/cabanas/kavac/kavac1.webp" alt="Cabaña Kavac" />
         </div>
       </div>
       <div className="cabana-left">
         <div className="image-left">
-          <img src="img/cabanas/uonquen/meru1.webp" alt="Cabaña Merú" />
+          <img src="img/cabanas/meru/meru1.webp" alt="Cabaña Merú" />
         </div>
         <div className="content-right">
           <h1 className="titulo">Merú</h1>
@@ -136,7 +139,7 @@ function Cabanas() {
             <li>Amenitties</li>
           </ul>
           <div className="button">
-            <a href='/tarifas.html'>Ver Tarifas</a>
+            <a href="/tarifas.html">Ver Tarifas</a>
           </div>
           <div className="galeria">
             <Minigallery cabinName="Meru" />
@@ -144,7 +147,7 @@ function Cabanas() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Cabanas
+export default Cabanas;

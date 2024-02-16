@@ -6,6 +6,7 @@ import Intro from "./components/Intro";
 import Cabanas from "./components/Cabanas";
 import Reception from "./components/Reception";
 import Gameroom from "./components/Gameroom";
+import Gallery from "./components/Gallery";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Cabanas />
           <Reception />
           <Gameroom />
+          <Gallery />
         </main>
       </BrowserRouter>
     </div>

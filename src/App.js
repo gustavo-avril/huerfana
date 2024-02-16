@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Intro from "./components/Intro";
 import Cabanas from "./components/Cabanas";
+import Reception from "./components/Reception";
+import Gameroom from "./components/Gameroom";
 import "./App.css";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Slider className="slider" />
           <Intro />
           <Cabanas />
+          <Reception />
+          <Gameroom />
         </main>
       </BrowserRouter>
     </div>

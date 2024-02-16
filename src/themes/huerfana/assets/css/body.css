@@ -1,0 +1,38 @@
+@charset "utf-8";
+html{padding:0;margin:0;width:100%;height:100%;}
+body {background: url('../images/1.jpg'); background-repeat:no-repeat; background-size: cover; background-attachment:fixed; background-position:center center; height:100%;min-height:100%;width:100%;padding:0;margin:0;}
+header{z-index:999;width:100%;}
+.contenedor{margin-left:auto;margin-right:auto;width:87.36%;padding-left:1.82%;padding-right:1.82%;}
+.contenedor1{background:rgb(255,255,255);margin-left:auto;margin-right:auto;width:87.36%;padding-left:1.82%;padding-right:1.82%;}
+.cab{}
+#grupo{clear:both;float:left;margin-left:0;width:100%;display:block; padding-bottom:0.5%;}
+#logo{clear: both;width: 62.2758%;display: flex;margin-left: auto;margin-right: auto;}
+#redes{clear: both;width: 80%;display: block;margin:0 auto;}
+.facebook,.instagram,.twitter,.tripadvisor,.animals{float:left; width:auto;margin-right:1%;text-align:center}
+.caption{text-align:center;padding:1%;}
+#menu{clear: both;float: left;margin-left: 0;width: 100%;display: block;padding:1%;box-sizing:border-box; }
+#inicio,#cabanas{width:100%;}
+#clientes{background: url('../images/clientes.jpg');background-repeat: no-repeat;background-size: cover; background-attachment: fixed;background-position: center center;height: 100%;min-height: 100%;width: 100%;padding: 0;margin: 0;}
+.slider{ width:100%; overflow:hidden; margin-bottom:1em; }
+.huge_it_slideshow_image_wrap_3{ background:rgb(255,255,255);}
+.huge_it_slideshow_image_wrap_4 {padding-bottom:1%;}
+footer{background:rgba(40,21,14,1);z-index:999;width:100%;}
+@media only screen and (min-width: 481px){
+.contenedor{width:90.675%;padding-left:1.1625%;padding-right:1.1625%;margin-top:1%;}
+.contenedor1{width:90.675%;padding-left:1.1625%;padding-right:1.1625%;margin-top:1%;}
+#grupo{clear: both;float: left;margin-left: 0;width: 100%;display: block;}
+#logo{clear: both;float: left;margin-left: 0;width: 55.3877%;display: block;}
+#redes{clear: none;float: left;margin-left: 2.0408%;width: 42.5714%;display: block;margin-top:8px; }
+#menu{clear: both;float: left;margin-left: 0;width: 100%;display: block;}
+}
+
+@media only screen and (min-width: 769px) {
+.contenedor{width:88.2%;max-width:1232px;padding-left:.9%;padding-right:.9%;margin:auto;margin-top:1%;}
+.contenedor1{width:88.2%;max-width:1232px;padding-left:.9%;padding-right:.9%;margin-top:1.25em;margin:auto;}
+#grupo{clear:both;float:left;margin-left:0;width:100%;display:flex;}
+#logo{clear:both;float:left;margin-left:0;width:72.3877%;display:block;}
+#redes{clear:none;float:left;margin-left:2.0408%;width:25.5714%;display:block;margin-top:8px;}
+#redes img{text-align:right;}
+#menu{clear:both;float:left;margin-left:0;width:100%;display:block;}
+}
+

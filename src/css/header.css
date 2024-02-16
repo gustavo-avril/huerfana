@@ -1,0 +1,73 @@
+.contenedor{
+  display: block;
+  width: 100%;
+  background: rgb(250,190,40);
+  margin: 0 auto;
+}
+.grupo{
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: 0 auto;
+  align-content: center;
+  border-bottom: 1px solid rgba(232,174,29,1);
+}
+.redes{
+  display: flex;
+  align-self: center;
+}
+.redes > div{
+  padding: 0 5px;
+}
+.menu{
+  font-weight:600;
+  color: rgb(255,255,255);
+  text-transform:uppercase;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px 0;
+}
+.caption{text-align:center;padding:1%;}
+
+/* Navigation styling */
+.nav ul {
+  justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  width: 90%;
+}
+
+.nav ul > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav ul > li a:hover {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.nav .active > a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* Mobile Navigation 
+.nav-mobile {
+  display: none;
+  cursor: pointer;
+  background: url(../images/nav.svg) no-repeat center center;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}*/
+body{
+  background: url('../img/1.webp'); 
+  background-repeat:no-repeat; 
+  background-size: cover; 
+  background-attachment:fixed; 
+  background-position:center center; 
+  height:100%;
+  min-height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+}

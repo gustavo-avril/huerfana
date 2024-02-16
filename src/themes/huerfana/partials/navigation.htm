@@ -1,0 +1,51 @@
+==
+<body>
+<header>
+	<div class="contenedor">
+		<div id="grupo">
+			<div id="logo">
+				<img src="{{ 'assets/images/logo-huerfana.png'|theme }}" alt="Logo Huerfana"/>
+			</div>
+			<div id="redes">
+				 <div class="instagram">
+					<a href="http://www.instagram.com/posadafincalahuerfana" target="_blank">
+						<img src="{{ 'assets/images/instagram.png'|theme }}" width="38" height="38" alt="Instagram"/>
+					</a>
+				</div>
+				<div class="facebook">
+					<a href="https://www.facebook.com/posadafincalahuerfana/?fref=ts" target="_blank">
+						<img src="{{ 'assets/images/facebook.jpg'|theme }}" width="38" height="38" alt="Facebook"/>
+					</a>
+				</div>
+				<div class="twitter">
+					<a href="http://twitter.com/#!/posada_huerfana/" target="_blank">
+						<img src="{{ 'assets/images/twitter.jpg'|theme }}" width="38" height="38" alt="Twitter"/>
+					</a>
+				</div>
+				<div class="tripadvisor">
+					<a href="https://www.tripadvisor.com.ve/Hotel_Review-g5982096-d4463002-Reviews-Posada_Finca_la_Huerfana-El_Cobre_Andean_Region.html"  target="_blank">
+						<img src="{{ 'assets/images/tripadvisor.jpg'|theme }}" width="38" height="38" alt="Trip Advisor"/>
+					</a>
+				</div>
+				<!-- <div class="animals" style="background: rgb(255,255,255);">
+						<img src="{{ 'assets/images/no-animals.jpg'|theme }}" width="38" height="38" alt="Mascotas"/>
+				</div> -->
+			</div> <!-- redes -->
+		</div><!-- grupo -->
+
+		<div id="menu" class="nav">
+			<ul>
+				<li class="{% if this.page.id == 'inicio' %}active{% endif %}"><a href="{{ 'inicio'|page }}">Inicio</a></li>
+				<li class="{% if this.page.id == 'cabanas' %}active{% endif %}"><a href="{{ '#cabanas' }}">Cabañas</a></li>
+				<li class="{% if this.page.id == 'tarifas' %}active{% endif %}"><a href="{{ 'tarifas'|page }}">Tarifas, Servicios y Spa</a></li>
+				<li class="{% if this.page.id == 'galeria' %}active{% endif %}"><a href="{{ '#galeria' }}">Galería</a></li>
+				<!-- <li class="{% if this.page.id == 'luna' %}active{% endif %}"><a href="{{ '#luna' }}">Luna de Miel</a></li> -->
+				<li class="{% if this.page.id == 'aves' %}active{% endif %}"><a href="{{ 'aves'|page }}">Aves</a></li>
+				<li class="{% if this.page.id == 'contacto' %}active{% endif %}"><a href="{{ 'contacto'|page }}">Contacto</a></li>
+				<li class="{% if this.page.id == 'excursiones' %}active{% endif %}"><a href="{{ 'excursiones'|page }}">Excursiones</a></li>
+				<li class="{% if this.page.id == 'sugerencias' %}active{% endif %}"><a href="{{ 'sugerencias'|page }}">Sugerencias</a></li>
+				<li class="{% if this.page.id == 'faq' %}active{% endif %}"><a href="{{ 'faq'|page }}">FAQ</a></li>
+			</ul>
+		</div>
+	</div>
+</header>

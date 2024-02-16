@@ -1,0 +1,23 @@
+title = "test"
+url = "/test"
+layout = "main"
+is_hidden = 0
+
+[userFeed]
+user_name = "gabiz_gabrielazerpa"
+limit = 10
+cache = 10
+==
+<div class="instagram">
+	{% for m in userFeed.media %}
+  {% if m.getType() == 'image' %}
+    <a href="{{ m.getStandardResImage().url }}" target="_blank"><img src="{{ m.getLowResImage().url }}" ></a>
+  {% elseif m.getType() == 'video' %}
+    <video width="480" height="480" controls>
+      <source src="{{ m.getLowResVideo().url }}" 
+      type="video/mp4"/>
+    </video>
+  {% endif %}
+{% endfor %}
+	
+</div>

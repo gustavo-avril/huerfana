@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Uonquen",
+    "images": [
+      {
+        "alt": "Cabana Uonquen",
+        "url": "img/cabanas/uonquen/uonquen2.webp",
+        "thumb":"img/cabanas/thumb/uonquen2.jpg"
+      },
+      {
+        "alt": "Cabana Uonquen",
+        "url": "img/cabanas/uonquen/uonquen3.webp",
+        "thumb":"img/cabanas/thumb/uonquen3.jpg"
+      },
+      {
+        "alt": "Cabana Uonquen",
+        "url": "img/cabanas/uonquen/uonquen4.webp",
+        "thumb":"img/cabanas/thumb/uonquen4.jpg"
+      }
+    ],
+    "portrait": [
+      {
+        "nombre": "Uonquen",
+        "url": "img/cabanas/uonquen/uonquen1.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Parupa",
+    "images": [
+      {
+        "alt": "Cabana Parupa",
+        "url": "img/cabanas/parupa/parupa2.webp",
+        "thumb":"img/cabanas/thumb/parupa2.jpg"
+      },
+      {
+        "alt": "Cabana Parupa",
+        "url": "img/cabanas/parupa/parupa3.webp",
+        "thumb":"img/cabanas/thumb/parupa3.jpg"
+      },
+      {
+        "alt": "Cabana Parupa",
+        "url": "img/cabanas/parupa/parupa4.webp",
+        "thumb":"img/cabanas/thumb/parupa4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Canaima",
+    "images": [
+      {
+        "alt": "Cabana Canaima",
+        "url": "img/cabanas/canaima/canaima2.webp",
+        "thumb":"img/cabanas/thumb/canaima2.jpg"
+      },
+      {
+        "alt": "Cabana Canaima",
+        "url": "img/cabanas/canaima/canaima3.webp",
+        "thumb":"img/cabanas/thumb/canaima3.jpg"
+      },
+      {
+        "alt": "Cabana Canaima",
+        "url": "img/cabanas/canaima/canaima4.webp",
+        "thumb":"img/cabanas/thumb/canaima4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kamarata",
+    "images": [
+      {
+        "alt": "Cabana Kamarata",
+        "url": "img/cabanas/kamarata/kamarata2.webp",
+        "thumb": "img/cabanas/thumb/kamarata2.jpg"
+      },
+      {
+        "alt": "Cabana Kamarata",
+        "url": "img/cabanas/kamarata/kamarata3.webp",
+        "thumb": "img/cabanas/thumb/kamarata3.jpg"
+      },
+      {
+        "alt": "Cabana Kamarata",
+        "url": "img/cabanas/kamarata/kamarata4.webp",
+        "thumb": "img/cabanas/thumb/kamarata4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kavac",
+    "images": [
+      {
+        "alt": "Cabana Kavac",
+        "url": "img/cabanas/kavac/kavac2.webp",
+        "thumb": "img/cabanas/thumb/kavac2.jpg"
+      },
+      {
+        "alt": "Cabana Kavac",
+        "url": "img/cabanas/kavac/kavac3.webp",
+        "thumb": "img/cabanas/thumb/kavac3.jpg"
+      },
+      {
+        "alt": "Cabana Kavac",
+        "url": "img/cabanas/kavac/kavac4.webp",
+        "thumb": "img/cabanas/thumb/kavac4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Meru",
+    "images": [
+      {
+        "alt": "Cabana Meru",
+        "url": "img/cabanas/meru/meru2.webp",
+        "thumb": "img/cabanas/thumb/meru2.jpg"
+      },
+      {
+        "alt": "Cabana Meru",
+        "url": "img/cabanas/meru/meru3.webp",
+        "thumb": "img/cabanas/thumb/meru3.jpg"
+      },
+      {
+        "alt": "Cabana Meru",
+        "url": "img/cabanas/meru/meru4.webp",
+        "thumb": "img/cabanas/thumb/meru4.jpg"
+      }
+    ]
+  }
+]

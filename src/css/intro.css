@@ -1,0 +1,12 @@
+.intro{
+  color: rgba(0,0,0,.54);
+  background: #fff;
+  width: 88.2%;
+  max-width: 1232px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+h1, p{
+  text-align: left;
+}

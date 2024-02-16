@@ -1,0 +1,87 @@
+==
+{% partial 'meta' %}
+
+{% partial 'navigation' %}
+
+	{% page %}
+
+<footer>
+	<div>
+		<br /><br />
+		<p style="color: #ffffff; font-size: 13px; text-align: center;"><strong>Todos los derechos reservados 2021</strong></p>
+		<br /><br />
+	</div>
+</footer>
+    <script src="{{ 'assets/js/jquery.bxslider.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/respond.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery.easing.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/lightbox.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/script.js'|theme }}"></script>
+
+    <script>
+        $(document).ready(function(){
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+            });
+        });
+    </script>
+
+    <script>
+            $('.bxslider').bxSlider({
+            mode: 'fade',
+            auto: true,
+            captions: true,
+            speed:1500
+            });
+    </script>
+
+    <script>
+    (function () {
+
+        // Create mobile element
+        var mobile = document.createElement('div');
+        mobile.className = 'nav-mobile';
+        document.querySelector('.nav').appendChild(mobile);
+
+        // hasClass
+        function hasClass(elem, className) {
+            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+        }
+
+        // toggleClass
+        function toggleClass(elem, className) {
+            var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+            if (hasClass(elem, className)) {
+                while (newClass.indexOf(' ' + className + ' ') >= 0) {
+                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                }
+                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+            } else {
+                elem.className += ' ' + className;
+            }
+        }
+
+        // Mobile nav function
+        var mobileNav = document.querySelector('.nav-mobile');
+        var toggle = document.querySelector('.nav-list');
+        mobileNav.onclick = function () {
+            toggleClass(this, 'nav-mobile-open');
+            toggleClass(toggle, 'nav-active');
+        };
+    });
+    </script>
+
+
+
+</body>
+</html>

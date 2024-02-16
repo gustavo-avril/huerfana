@@ -1,0 +1,64 @@
+==
+{% partial 'meta' %}
+
+{% partial 'navigation' %}
+
+	{% page %}
+
+
+<footer>
+	<div>
+		<br /><br />
+		<p style="color: #ffffff; font-size: 13px; text-align: center;"><strong>Fotografías de: Kevin Corredor 0414-7428514</strong> <a href="http://www.instagram.com/parpadoelocuente" target="_blank"><img src="{{ "assets/images/instagram.png"|theme }}" alt="" width="24" height="24" /></a> <a href="http://www.twitter.com/parpadoelocuente" target="_blank"><img src="{{ "assets/images/twitter.jpg"|theme }}" alt="" width="24" height="24" /></a></p>
+		<br /><br />
+	</div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="{{ 'assets/js/jquery.bxslider.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/respond.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.easing.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/script.js'|theme }}"></script>
+
+	<script>
+        $(document).ready(function(){
+    
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+        
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+        });
+    </script>
+
+    <script>
+        $('.bxslider').bxSlider({
+        mode: 'fade',
+        auto: true,
+        captions: true,
+        speed:1500
+        });
+    </script>
+
+	<script>
+		(function($) {
+			var allPanels = $('.accordion > dd').hide();
+				$('.accordion > dt > a').click(function() {
+					allPanels.slideUp();
+					$(this).parent().next().slideDown();
+					return false;
+				});
+			})(jQuery);
+	</script>
+
+</body>
+</html>

@@ -6,6 +6,8 @@ import Intro from "./components/Intro";
 import Cabanas from "./components/Cabanas";
 import Reception from "./components/Reception";
 import Gameroom from "./components/Gameroom";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Cabanas />
           <Reception />
           <Gameroom />
+          <Gallery />
+          <Footer />
         </main>
       </BrowserRouter>
     </div>

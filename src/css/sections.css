@@ -27,3 +27,10 @@ h1 {
 .gallery img {
     width: 49.5%;
 }
+
+.main img {
+    width: 24.5%;
+}
+.main:hover {
+    cursor: pointer;
+}

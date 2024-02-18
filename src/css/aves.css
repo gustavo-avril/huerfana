@@ -1,0 +1,30 @@
+.aves {
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+}
+table {
+    width: 75%;
+    border: 1px solid transparent;
+    margin: 0 auto;
+}
+td {
+    border-radius: 3px;
+    padding: 10px 5px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.1rem;
+    color: #cecece;
+    text-align: center;
+}
+.titles {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #028f76;
+    font-weight: 600;
+}
+tr:nth-child(even) {
+    background: #028f76; /* #cecece */
+    color: #fff;
+}

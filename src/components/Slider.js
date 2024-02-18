@@ -14,10 +14,7 @@ const Slider = () => {
 
   useEffect(() => {
     // listen for Swiper events using addEventListener
-    swiperElRef.current.addEventListener("swiperprogress", (e) => {
-      const [swiper, progress] = e.detail;
-      //console.log(progress);
-    });
+
   }, []);
 
   return (

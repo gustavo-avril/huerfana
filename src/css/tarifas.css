@@ -51,3 +51,7 @@ hr {
 .text ul > li {
     padding: 2px 0px;
 }
+ul a {
+    color: rgb(250, 190, 40);
+    text-decoration: none;
+}
